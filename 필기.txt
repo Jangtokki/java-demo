@@ -1,0 +1,25 @@
+환경설정
+내pc > 고급 시스템설정 > 고급
+
+변수 : JAVA_HOME
+값 : c\programfiles\java\jdk~~~~~
+
+변수 :PATH
+값 : %JAVA_HOME%\bin
+
+<package 선언이 없을때>
+컴파일 : java Test.java
+실행 : java Test
+
+<package 선인이 있을때>
+컴파일 : javac -d . Sample.java
+
+<ide설치>
+
+<이클립스 실행후 java_workspace 생성>
+
+<이클립스 환경설정>
+인코딩 : 윈도우 -> preferences -> enc 검색 -> workspace -> ms949 를 utf-8로 변경 및 아래 4가지 모두 변경
+
+자바버젼 : 윈도우 -> preferences ->java -> installed JREs -> add -> standard vm -> -> jre home ->
+jdk 설치된 경로 추가 및 체크

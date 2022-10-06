@@ -9,7 +9,7 @@ public class Java_007_operators {
 		System.out.println(a/b); //3
 		System.out.println((double)a/b); //3.33333
 		
-		System.out.println((double)(a/b)); //3.0
+		System.out.println((double)(a/b)); //3.0 /////
 		
 		
 		
