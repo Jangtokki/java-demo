@@ -1,4 +1,4 @@
-package java_007_class.part09.part04.copy;
+package java_007_class.prob.part04;
 
 public class BookShop {
 	//멤버변수

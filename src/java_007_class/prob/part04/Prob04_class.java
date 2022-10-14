@@ -1,4 +1,4 @@
-package java_007_class.part09.part04.copy;
+package java_007_class.prob.part04;
 /* 1 display()메소드에서 code별 가격합계를 구현하는 프로그램을 구현하시오.
  * 
  * 2 출력결과
