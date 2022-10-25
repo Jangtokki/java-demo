@@ -11,8 +11,9 @@ public class BookManager {
 			
 			if(dto.getKind()==kind) {
 				
+				
 				sum += dto.getRentalPrice();
-			}System.out.println(dto.getKind());
+			}
 		}
 			
 		return sum;
