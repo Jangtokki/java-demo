@@ -1,17 +1,17 @@
 package Project;
 
-public class Sub {
+public class Product {
 	
-	int number;
+	String number;
 	String title;
 	int price;
 	int amount;
 	
-	public Sub() {
+	public Product() {
 		
 	}
 
-	public Sub(int number, String title, int price, int amount) {
+	public Product(String number, String title, int price, int amount) {
 		
 		this.number = number;
 		this.title = title;
@@ -19,11 +19,11 @@ public class Sub {
 		this.amount = amount;
 	}
 
-	public int getNumber() {
+	public String getNumber() {
 		return number;
 	}
 
-	public void setNumber(int number) {
+	public void setNumber(String number) {
 		this.number = number;
 	}
 
